@@ -1,0 +1,25 @@
+.header {
+    background-color: $color-primary;
+    height: 100vh;
+    position: relative;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
+
+    &__content {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    &__arrow {
+        width: 5.5rem;
+        height: 5.5rem;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        bottom: 5%;
+        transform: translateX(-50%);
+        background-color: $color-primary;
+    }
+}

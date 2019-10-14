@@ -1,0 +1,30 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: $font-size-standard;
+    line-height: 1.7;
+    color: $color-dark;
+}
+
+.heading-primary {
+    color: $color-3;
+    font-size: $font-size-huge;
+    line-height: 1.5;
+    margin: 0;
+
+    span {
+        color: $color-secondary;
+        text-transform: uppercase;
+    }
+}
+
+.heading-secondary {
+    color: $color-3;
+    font-size: $font-size-big;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    font-size: $font-size-standard;
+}

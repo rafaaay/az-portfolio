@@ -1,0 +1,22 @@
+.section-title {
+    background-color: $color-primary;
+    height: 100%;
+}
+
+.section-about {
+    .section-content {
+        &__image {
+            height: 25rem;
+            width: 25rem;
+            margin: 0 auto;
+            background: url("../../assets/images/altaf-bhai.jpg");
+            background-size: contain;
+            -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+        }
+
+        &__text {
+            margin: 1.5rem 0;
+        }
+    }
+}
