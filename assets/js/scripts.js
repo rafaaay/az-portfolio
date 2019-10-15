@@ -11,11 +11,22 @@ closeBtn.addEventListener("click", function(){
     sideNav.style.width = 0;
 });
 
+// jQuery
+$(document).ready(function() {
 
-// function openNav() {
-//     document.getElementById("side-nav").style.width = "50%";
-// }
+    // About
+    $(".about-link").on("click", function(){
+        $(".home").fadeOut();
+        $(".about").fadeIn();
+    });
+    // About
 
-// function closeNav() {
-//     document.getElementById("side-nav").style.width = "0";
-// }
+    // Home
+    $(".home-link").on("click", function(){
+        $(".about").fadeOut();
+        $(".home").fadeIn();
+        sideNav.style.width = 0;
+    });
+    // Home
+        
+});

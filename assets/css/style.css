@@ -47,8 +47,16 @@ body {
   margin: 0;
 }
 
+.heading-tertiary {
+  color: #0b3954;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 p {
   font-size: 1.6rem;
+  color: #0b3954;
 }
 
 .btn-primary {
@@ -132,6 +140,30 @@ p {
   color: #FEFFFE;
 }
 
+.work-block {
+  margin: 1rem 0;
+  padding: 20px;
+  box-shadow: 0 8px 6px -6px #0b3954;
+}
+.work-block__title {
+  font-size: 2.4rem;
+  color: #0b3954;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.work-block__company {
+  font-size: 2rem;
+  color: #FF6663;
+  margin-bottom: 0.5rem;
+}
+.work-block__description {
+  margin-bottom: 0.5rem;
+}
+.work-block__period {
+  font-size: 2rem;
+  color: #FF6663;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -199,6 +231,7 @@ p {
 .right-content {
   height: 100%;
   position: relative;
+  overflow-y: scroll;
 }
 
 .home {
@@ -225,6 +258,39 @@ p {
 }
 .home ul li:not(:last-child) {
   margin: 0.5rem;
+}
+
+.about {
+  padding: 0 3rem;
+  display: none;
+}
+.about__heading {
+  text-align: center;
+}
+.about__me {
+  text-align: center;
+  margin: 5rem 0;
+}
+.about__me .image {
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
+  background: url("../images/altaf-bhai.jpg");
+  background-size: cover;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.about__me h3 {
+  margin: 3rem 0;
+}
+.about__me p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.about__work h3 {
+  color: #FEFFFE;
+  background: #0b3954;
+  display: inline-block;
+  padding: 0 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

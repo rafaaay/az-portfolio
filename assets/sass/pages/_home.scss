@@ -37,6 +37,7 @@
 .right-content {
     height: 100%;
     position: relative;
+    overflow-y: scroll;
 }
 
 // Home
@@ -74,7 +75,46 @@
 
 // About
 .about {
+    padding: 0 3rem;
+    display: none;
 
+    &__heading {
+        text-align: center;
+    }
+
+    &__me {
+        text-align: center;
+        margin: 5rem 0;
+
+        .image {
+            width: 25rem;
+            height: 25rem;
+            margin: 0 auto;
+            background: url("../images/altaf-bhai.jpg");
+            background-size: cover;
+            -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        }
+
+        h3 {
+            margin: 3rem 0;
+        }
+
+        p {
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__work {
+        h3 {
+            color: $color-light;
+            background: $color-primary;
+            display: inline-block;
+            padding: 0 3rem;
+        }
+    }
 }
 
 // Skills

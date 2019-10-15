@@ -1,0 +1,27 @@
+.work-block {
+    margin: 1rem 0;
+    padding: 20px;
+    box-shadow: 0 8px 6px -6px $color-primary;
+
+    &__title {
+        font-size: $font-size-average;
+        color: $color-primary;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+    }
+
+    &__company {
+        font-size: $font-size-small;
+        color: $color-secondary;
+        margin-bottom: .5rem;
+    }
+
+    &__description {
+        margin-bottom: .5rem;
+    }
+
+    &__period {
+        font-size: $font-size-small;
+        color: $color-secondary;
+    }
+}
