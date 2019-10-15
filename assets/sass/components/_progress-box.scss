@@ -1,0 +1,27 @@
+.box { 
+    display: inline-block;
+
+    &__content {
+        width: 150px;
+        height: 150px;
+        border: 3px solid $color-primary;
+        position: relative;
+
+        .progress {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: $color-primary;
+            font-size: $font-size-average;
+            background-color: $color-secondary;
+            font-weight: bold;
+        }
+    }
+
+    &__name {
+        text-align: center;
+        color: $color-primary;
+        font-size: $font-size-average;
+    }
+}

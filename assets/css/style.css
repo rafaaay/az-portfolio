@@ -164,6 +164,31 @@ p {
   color: #FF6663;
 }
 
+.box {
+  display: inline-block;
+}
+.box__content {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #0b3954;
+  position: relative;
+}
+.box__content .progress {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #0b3954;
+  font-size: 2.4rem;
+  background-color: #FF6663;
+  font-weight: bold;
+}
+.box__name {
+  text-align: center;
+  color: #0b3954;
+  font-size: 2.4rem;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -214,6 +239,7 @@ p {
   float: right;
   z-index: 2;
   box-shadow: -8px 0 10px -6px #FEFFFE;
+  overflow-y: scroll;
 }
 
 .menu-button {
@@ -231,7 +257,6 @@ p {
 .right-content {
   height: 100%;
   position: relative;
-  overflow-y: scroll;
 }
 
 .home {
@@ -291,6 +316,13 @@ p {
   background: #0b3954;
   display: inline-block;
   padding: 0 3rem;
+}
+
+.skills {
+  padding: 0 3rem;
+}
+.skills__heading {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
