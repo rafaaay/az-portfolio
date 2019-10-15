@@ -1,22 +1,88 @@
-.section-title {
-    background-color: $color-primary;
+.left {
+    width: 50%;
     height: 100%;
+    float: left;
+    background-color: $color-primary;
+    position: relative;
+
+    &__heading {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
-.section-about {
-    .section-content {
-        &__image {
-            height: 25rem;
-            width: 25rem;
-            margin: 0 auto;
-            background: url("../../assets/images/altaf-bhai.jpg");
-            background-size: contain;
-            -webkit-clip-path: circle(50% at 50% 50%);
-            clip-path: circle(50% at 50% 50%);
-        }
+.right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    z-index: 2;
+    box-shadow: -8px 0 10px -6px $color-light;
+}
 
-        &__text {
-            margin: 1.5rem 0;
+.menu-button {
+    text-align: right;
+
+    a {
+        display: inline-block;
+        color: $color-primary;
+        margin: 2rem;
+        i {
+            font-size: 3.5rem;
         }
     }
+}
+
+.right-content {
+    height: 100%;
+    position: relative;
+}
+
+// Home
+.home {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+
+    &__divider {
+        width: 10rem;
+        margin: 2rem auto 0 auto;
+        height: 3px;
+        border: none;
+        border-top: 1px solid $color-primary;
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 4rem;
+
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin: .5rem;
+            }
+
+        }
+    }
+}
+
+// About
+.about {
+
+}
+
+// Skills
+.skills {
+
+}
+
+// Contact
+.contact {
+
 }

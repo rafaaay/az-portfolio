@@ -1,0 +1,14 @@
+.btn-primary {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: $font-size-medium;
+    background-color: $color-light;
+    color: $color-primary;
+    border: .2rem solid $color-primary;
+    transition: all .5s;
+
+    &:hover {
+        background-color: $color-primary;
+        color: $color-light;
+    }
+}

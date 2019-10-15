@@ -1,0 +1,43 @@
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: $color-tertiary;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    &__close-btn {
+        text-align: left;
+
+        a {
+            display: inline-block;
+            color: $color-primary;
+            margin: 2rem;
+            i {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    ul {
+        text-align: center;
+        list-style: none;
+        margin-top: 5rem;
+
+        li {
+
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+            
+            a {
+                text-decoration: none;
+                color: $color-primary;
+                font-size: $font-size-medium;
+            }
+        }
+    }
+}
