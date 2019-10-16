@@ -76,7 +76,6 @@
 // About
 .about {
     padding: 0 3rem;
-    // display: none;
 
     &__heading {
         text-align: center;
@@ -123,6 +122,14 @@
 
     &__heading {
         text-align: center;
+    }
+
+    &__description {
+        text-align: center;
+    }
+
+    &__content {
+        padding: 0 5rem;
     }
 
     
