@@ -367,6 +367,38 @@ p {
     margin-bottom: 20px;
   }
 }
+.project-box {
+  width: 75%;
+  margin: 5rem auto;
+}
+.project-box__content {
+  background-color: #BFD7EA;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.project-box__title h4 {
+  text-transform: uppercase;
+}
+.project-box__title h4 a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #FF6663;
+}
+.project-box__date span {
+  color: #FF6663;
+  font-weight: bold;
+}
+.project-box__tech ul {
+  list-style: none;
+  text-align: center;
+  background-color: #0b3954;
+}
+.project-box__tech li {
+  display: inline-block;
+  color: #FEFFFE;
+  padding: 0 1rem;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -506,6 +538,10 @@ p {
 }
 .skills__content {
   padding: 0 5rem;
+}
+
+.portfolio__heading {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
