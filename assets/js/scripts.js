@@ -11,22 +11,48 @@ closeBtn.addEventListener("click", function(){
     sideNav.style.width = 0;
 });
 
+
 // jQuery
 $(document).ready(function() {
 
-    // About
-    $(".about-link").on("click", function(){
-        $(".home").fadeOut();
-        $(".about").fadeIn();
-    });
-    // About
-
     // Home
     $(".home-link").on("click", function(){
-        $(".about").fadeOut();
-        $(".home").fadeIn();
+        $(".show-div").fadeOut().addClass("hide-div").removeClass("show-div");
+        $(".home").fadeIn().addClass("show-div");
         sideNav.style.width = 0;
     });
     // Home
-        
+
+    // About
+    $(".about-link").on("click", function(){
+        $(".show-div").fadeOut().addClass("hide-div").removeClass("show-div");
+        $(".about").fadeIn().addClass("show-div");
+        sideNav.style.width = 0;
+    });
+    // About
+
+    // Skills
+    $(".skills-link").on("click", function(){
+        $(".show-div").fadeOut().addClass("hide-div").removeClass("show-div");
+        $(".skills").fadeIn().addClass("show-div");
+        sideNav.style.width = 0;
+    });
+    // Skills
+
+    // Portfolio
+    $(".portfolio-link").on("click", function(){
+        $(".show-div").fadeOut().addClass("hide-div").removeClass("show-div");
+        $(".portfolio").fadeIn().addClass("show-div");
+        sideNav.style.width = 0;
+    });
+    // Portfolio
+
+    // Contact Me
+    $(".contact-link").on("click", function(){
+        $(".show-div").fadeOut().addClass("hide-div").removeClass("show-div");
+        $(".home").fadeIn().addClass("show-div");
+        sideNav.style.width = 0;
+    });
+    // Contact Me
+
 });

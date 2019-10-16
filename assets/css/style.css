@@ -20,6 +20,14 @@ body {
   user-select: none;
 }
 
+.show-div {
+  display: block;
+}
+
+.hide-div {
+  display: none;
+}
+
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: 400;
@@ -287,7 +295,6 @@ p {
 
 .about {
   padding: 0 3rem;
-  display: none;
 }
 .about__heading {
   text-align: center;
