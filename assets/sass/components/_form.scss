@@ -1,0 +1,56 @@
+.form {
+    width: 75%;
+    margin: 0 auto;
+    background: $color-primary;
+    padding: 2rem;
+
+    &__group {
+        margin: 2rem 0;
+    }
+
+    &__label {
+        color: $color-light;
+        font-size: $font-size-average;
+        display: block;
+    }
+
+    &__input {
+        padding: 1rem;
+        font-size: $font-size-small;
+        width: 100%;
+        display: block;
+
+        &::-webkit-input-placeholder {
+            color: $color-primary;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 400;
+            font-size: $font-size-standard;
+            line-height: 1.7;
+        }
+
+        &::-moz-placeholder { 
+            color: $color-primary;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 400;
+            font-size: $font-size-standard;
+            line-height: 1.7;
+        }
+    
+        &:-ms-input-placeholder { 
+            color: $color-primary;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 400;
+            font-size: $font-size-standard;
+            line-height: 1.7;
+        }
+
+        &:-moz-placeholder {
+            color: $color-primary;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 400;
+            font-size: $font-size-standard;
+            line-height: 1.7;
+        }
+    }
+
+}

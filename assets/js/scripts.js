@@ -50,7 +50,7 @@ $(document).ready(function() {
     // Contact Me
     $(".contact-link").on("click", function(){
         $(".show-div").fadeOut().addClass("hide-div").removeClass("show-div");
-        $(".home").fadeIn().addClass("show-div");
+        $(".contact").fadeIn().addClass("show-div");
         sideNav.style.width = 0;
     });
     // Contact Me
